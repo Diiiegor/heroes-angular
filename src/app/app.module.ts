@@ -14,6 +14,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 /*servicios*/
 import {HeroesService} from './servicios/heroes.service';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { BuscarheroeComponent } from './components/buscarheroe/buscarheroe.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     AboutComponent,
     HeroesComponent,
     HeroeComponent,
+    BuscarheroeComponent,
   ],
   imports: [
     BrowserModule,
